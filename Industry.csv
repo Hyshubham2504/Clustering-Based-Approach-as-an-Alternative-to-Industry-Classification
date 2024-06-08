@@ -20,7 +20,7 @@ EXPE,Consumer Discretionary
 F,Consumer Discretionary
 GM,Consumer Discretionary
 GPC,Consumer Discretionary
-DRMN,Consumer Discretionary
+GRMN,Consumer Discretionary
 HAS,Consumer Discretionary
 HD,Consumer Discretionary
 HLT,Consumer Discretionary
@@ -113,7 +113,7 @@ WMB,Energy
 XOM,Energy
 ACGL,Financials
 AFL,Financials
-AlG,Financials
+AIG,Financials
 AIZ,Financials
 AJG,Financials
 ALL,Financials
@@ -194,7 +194,7 @@ BIO,Health Care
 BMY,Health Care
 BSX,Health Care
 CAH,Health Care
-Cl,Health Care
+CI,Health Care
 CNC,Health Care
 COO,Health Care
 COR,Health Care
