@@ -10,3 +10,4 @@ Some notes:
   - post_financial_crisis: 2009-07-01 to 2019-12-31
   - covid_period: 2020-01-01 to 2022-12-31
   - post_covid_period: 2023-01-01 onwards
+- I updated some notes on Jamboard: https://jamboard.google.com/d/13BWRG236EF7aWxrnhi-JCuZ1tOTGAd7toGYV45SmaR8/viewer?pli=1&mtt=fhsgn8vofbir&f=0 . Specifically, I set cv=1 because apparently it doesn't make sense to do cross validation on clustering (unsupervised learning).
