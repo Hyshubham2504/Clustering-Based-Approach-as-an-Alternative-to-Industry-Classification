@@ -11,3 +11,4 @@ Some notes:
   - covid_period: 2020-01-01 to 2022-12-31
   - post_covid_period: 2023-01-01 onwards
 - I updated some notes on Jamboard: https://jamboard.google.com/d/13BWRG236EF7aWxrnhi-JCuZ1tOTGAd7toGYV45SmaR8/viewer?pli=1&mtt=fhsgn8vofbir&f=0 . Specifically, I don't use GridSearchCV because apparently it doesn't make sense to do cross validation on clustering (unsupervised model).
+- For hierarchical clustering with correlation matrix, using method 'average', 'single', and 'complete', will always result in very imbalanced clusters (2 clusters with 1 super big cluster and 1 almost-empty cluster). So I only use 'ward' with 'euclidean', and only do "hyperparameter tuning" on n_clusters.
