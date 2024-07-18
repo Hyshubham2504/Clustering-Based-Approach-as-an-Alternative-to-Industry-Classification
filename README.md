@@ -1,4 +1,5 @@
 Link to the latest Google Colab where we can edit together: https://colab.research.google.com/drive/1Ju6XtVf3VGDIqfLtXRdgFisjajzWIGvo#scrollTo=wz5w3X49OU4Y
+2nd link:- https://colab.research.google.com/drive/1qBXnClU5mylT9somUq9woZbn_9shoZoW#scrollTo=ZcG0vVow_ZMn
 
 Some notes:
 - We used to only have GEV and SOLV having no data at all for this 20-year period, but now there's a new one called SW. SW seems to be a very new company (?) according to Yahoo Finance
