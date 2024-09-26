@@ -19,13 +19,13 @@ Three clustering approaches were tested:
 
 2. **Feature Engineering Approach:** Engineered features (e.g., average return, volatility) were extracted for distinct economic phases such as pre-financial crisis, COVID-19, etc.
    
-   ![K-Means Clustering - Feature Engineering Approach](<link_to_image>)
+   ![K-Means Clustering - Feature Engineering Approach](<Images/KMeans(Second Approach).png>)
 
    *Insight:* Using 10 engineered features, the clustering yielded smaller cluster sizes (n=2). This approach captured general trends but lacked the detail needed to differentiate between companies with similar volatilities across economic periods.
 
 3. **Combined Approach:** Both correlation matrix and engineered features were used as inputs, followed by Principal Component Analysis (PCA) for dimensionality reduction.
    
-   ![K-Means Clustering - Combined Approach](<link_to_image>)
+   ![K-Means Clustering - Combined Approach](<Images/KMeans(Combined Approach).png>)
 
    *Insight:* The combined approach produced 13 clusters, striking a balance between detail and interpretability. This method was able to differentiate companies more effectively by leveraging both the correlation matrix and engineered features, revealing patterns missed by the first two approaches.
 
@@ -33,13 +33,13 @@ Three clustering approaches were tested:
 
 ### Inter and Intra-Cluster Correlations
 
-   ![Inter and Intra-Cluster Correlation Matrix](<link_to_image>)
+   ![Inter and Intra-Cluster Correlation Matrix](<Images/Inter and Intra Cluster Correlation Matrix.png>)
 
    *Insight:* The heatmap of inter-cluster correlations shows that most clusters are well-separated, with low correlation values between them. Clusters like Cluster 1 and Cluster 9 have low correlations with most others, making them ideal candidates for portfolio diversification. Intra-cluster correlations (on the diagonal) reveal the internal cohesion of clusters. For instance, Cluster 11 has a high intra-cluster correlation, suggesting that companies within this cluster behave similarly, while Cluster 1 shows more independent behavior among its companies.
 
 ### Amazon’s Cluster Membership Over Time
 
-   ![Amazon Distance to Clusters](<link_to_image>)
+   ![Amazon Distance to Clusters](<Images/Amazon's Cluster Evolution.png>)
 
    *Insight:* Amazon's distance to different clusters over time shows how its market position evolved. Initially close to Consumer Cyclical companies, Amazon later became more aligned with technology sectors, reflecting its growing influence in cloud computing. Over time, its distance to other sectors, such as Healthcare and Industrials, fluctuated, providing a dynamic view of its business diversification not captured by static classifications like GICS.
 
