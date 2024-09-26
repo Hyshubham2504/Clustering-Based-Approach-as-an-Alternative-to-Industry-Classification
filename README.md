@@ -13,7 +13,7 @@ This project aims to develop a dynamic, data-driven alternative to the tradition
 Three clustering approaches were tested:
 1. **Correlation Matrix Approach:** Companies were clustered based on their daily return correlation matrix.
    
-   ![K-Means Clustering - Correlation Matrix Approach](<link_to_image>)
+   ![K-Means Clustering - Correlation Matrix Approach](<Images/KMeans(Correlation Matrix).png>)
 
    *Insight:* The clustering based on the correlation matrix generated a relatively small number of clusters (n=3), indicating that companies tend to have high correlations with each other. This approach is limited in capturing more nuanced differences, as it resulted in oversimplified clusters where companies across multiple GICS sectors were grouped together.
 
